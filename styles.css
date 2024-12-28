@@ -1,0 +1,199 @@
+.menu {
+    background-color: #7E512F; /* Escolha a cor desejada, neste caso, azul claro */
+    padding: 15px; /* Adiciona um espaçamento interno opcional */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+}
+
+nav {
+    display: flex; /* Alinha os itens lado a lado */
+    gap: 15%; /* Espaçamento entre os itens */
+    align-items: center; /* Alinha a imagem e os itens de forma centralizada */
+}
+
+nav p {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #000; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 25px; /* Aumenta o tamanho do texto */
+    transition: transform 0.5s ease, font-size 0.5s ease; /* Suaviza a transição de aumento e tamanho da fonte */
+}
+
+nav a:hover {
+    color: #ffff; /* Cor ao passar o mouse */
+    transform: scale(2.1); /* Aumenta o tamanho do link em 10% */
+    font-size: 28px; /* Aumenta o tamanho da fonte no hover */
+}
+
+nav img {
+    width: 80px; /* Ajusta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para a seção 'meio' */
+/* Estilo para a div .inicio */
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 25%; /* Define a largura como 80% da largura do elemento pai */
+    max-width: 600px; /* Define a largura máxima da div como 600px */
+}
+
+/* Estilo para a imagem dentro da div .inicio */
+.inicio img {
+    width: 328px;  /* Define a largura da imagem */
+    height: 268px; /* Define a altura da imagem */
+    object-fit: cover; /* Mantém a proporção da imagem sem distorcer, cortando se necessário */
+    transition: transform 0.5s ease, font-size 0.5s ease; 
+}
+
+/* Estilo para o h2 dentro da div .inicio */
+.inicio h2 {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 24px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+}
+
+/* Estilo para o parágrafo dentro da div .inicio */
+.inicio p {
+    margin-top: 10px; /* Adiciona espaço entre o h2 e o parágrafo */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #555; /* Define a cor do texto */
+    line-height: 1.6; /* Melhora a legibilidade do parágrafo */
+    font-size: medium;
+}
+
+.CENTRO {
+    display: flex; /* Usa flexbox para organizar os itens lado a lado */
+    gap: 20px; /* Adiciona um espaço entre os itens */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os itens */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 10px; /* Adiciona um pequeno preenchimento interno */
+}
+
+.CENTRO img, .CENTRO h2, .CENTRO p {
+    flex: 1; /* Faz os itens ocuparem uma fração do espaço disponível */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0;
+}
+
+h1 {
+    padding: 25px;
+    border-radius: 30px;
+    position: relative; /* Define o h1 no fluxo normal da página */
+    text-align: center; /* Centraliza o texto dentro do h1 */
+    margin: 0px auto; /* Centraliza horizontalmente com margens */
+    width: 80%; /* Define uma largura para o h1 */
+}
+
+nav .foto {
+    margin-left: 50px; /* Ajuste o valor para mover a imagem mais para a direita */
+}
+.outro p{
+    padding-left: 30px;   /* Espaço à esquerda */
+
+    padding-right: px;  /* Espaço à direita */
+    margin-top: 10px; /* Adiciona espaço entre o h2 e o parágrafo */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #000000; /* Define a cor do texto */
+    line-height: 1.6; /* Melhora a legibilidade do parágrafo */
+    font-size: medium;
+}
+
+.outro {
+    background-color: #7E512F;
+    border-radius: 30px;
+    position: relative; /* Define o h1 no fluxo normal da página */
+    text-align: center; /* Centraliza o texto dentro do h1 */
+    margin: 15px auto; /* Centraliza horizontalmente com margens */
+    width: 100%; /* Define uma largura para o h1 */
+    padding: 15px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border: none;
+    background-color: #00ff40;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button img {
+    width: 24px; /* Largura da imagem */
+    height: 24px; /* Altura da imagem */
+    margin-right: 8px; /* Espaço entre a imagem e o texto */
+}
+
+footer {
+    background-color: #999999; /* Cor de fundo */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Espaçamento interno */
+    bottom: 20px; /* Posiciona o rodapé na parte inferior */
+    width: 100%; /* Largura total da página */
+}
+
+footer nav {
+    display: flex; /* Usa flexbox para organizar os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+footer nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+    display: flex; /* Exibe os itens em linha */
+}
+
+footer nav ul li {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+footer nav ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #000; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+.meio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    width: 50%; /* Ajuste conforme necessário */
+    margin-left: 20%; 
+}
+/* Estilo para a imagem dentro da div .inicio */
+.meio img {
+    
+  
+   
+    object-fit: cover; /* Mantém a proporção da imagem sem distorcer, cortando se necessário */
+}
+
+
+
+
+/* Estilo para o parágrafo dentro da div .inicio */
+.meio p {
+    margin-top: 10px; /* Adiciona espaço entre o h2 e o parágrafo */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #555; /* Define a cor do texto */
+    line-height: 1.6; /* Melhora a legibilidade do parágrafo */
+    font-size: medium;
+}
+
